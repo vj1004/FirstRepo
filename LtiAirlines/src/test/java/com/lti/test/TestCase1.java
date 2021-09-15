@@ -1,6 +1,7 @@
 package com.lti.test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
 
 import org.junit.Test;
 
@@ -8,7 +9,7 @@ import com.lti.clien.Main;
 import com.lti.model.Flight;
 
 public class TestCase1 {
-
+	
 	@Test
 	public void testAdd() {
 		//test data
