@@ -1,10 +1,12 @@
 package com.lti.clien;
 
+import com.lti.model.Flight;
+
 public class Main {
 
 	public static void main(String[] args) {
-//		Flight f = new Flight(1001, "Mumbai","Pune");
-//		System.out.println(f.getFlightId()+""+f.getSource()+""+f.getDestination());
+		Flight f = new Flight(1001, "Mumbai","Pune");
+		System.out.println(f.getFlightId()+" "+f.getSource()+" "+f.getDestination());
 //		
 		// test data
 		int num1 = 10;
